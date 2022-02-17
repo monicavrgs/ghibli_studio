@@ -45,7 +45,7 @@ export default function Film(){
                 <PageHeader />
                 <Container direction='column' width='70%'>
                     <Title>{film.title}</Title>
-                    <Image src={film.movie_banner} />
+                    <Image src={film.movie_banner} alt='film banner' />
                     <Text>Original Title: {film.original_title}</Text>
                     <Text>Description: {film.description}</Text>
                     <Text>Release Date: {film.release_date}</Text>
